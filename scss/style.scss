@@ -1,0 +1,29 @@
+@import "vars";
+@import "./components/header";
+@import "./components/about";
+@import "components/projects";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: $accentColour2;
+  }
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+  @font-face {
+    font-family: "Silkscreen";  
+    src: url("./../src/fonts/Silkscreen-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+    }
+
+    @font-face {
+      font-family: "Titallium";  
+      src: url("./../src/fonts/TitilliumWeb-Bold.ttf") format("truetype"); 
+      font-style: normal; 
+      font-weight: normal;
+       }

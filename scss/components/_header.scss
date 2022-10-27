@@ -1,0 +1,57 @@
+.header {
+    background: $accentColour3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 75px;
+}
+
+.logo {
+}
+.logo img {
+    width: 300px;
+    height: 33px;
+    object-fit: cover;
+  }
+  
+.menu {
+    font-size: 1.5em;
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+
+}
+.menu-list__item {
+    
+    a{
+        cursor: pointer;
+        color: $accentColour1;
+        font-weight: bold;
+        text-shadow: $accentColour5 3px 3px;
+        transition: 0.3s ;
+        position: relative;
+    }
+    a:hover{
+        color: $accentColour5;
+        text-shadow: $accentColour1 3px 3px;
+    }
+
+    
+    text-transform: uppercase;
+}
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
